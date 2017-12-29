@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    background-image: url('../assets/images/fondo.jpg');
+    background-size: auto;
+}
+
+.circle-orange{
+    background: linear-gradient(rgb(255, 174, 0) 20%, rgb(252, 238, 45));
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 15em;
+    padding: 3em 2em;
+}
+.white{
+    color: rgb(252, 250, 248);
+}
+h1{ 
+    font-size: 3.5em;
+    font-weight: 700;    
+}
+h4{
+    font-size: 2em;
+}
+.map{
+    width: 80%;
+    border:2px solid rgb(255, 174, 0);   
+}
+.map img{
+    
+
+}
