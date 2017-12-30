@@ -3,28 +3,33 @@
     padding: 0;
     margin: 0;
 }
-
-.background{
-    background-image: url('../assets/images/fondo.jpg');
+/*estilos del index*/
+.background{      
+    
+    background-image: url("../assets/images/comida-peruana.jpg");
     background-size: auto;
+    background-repeat: no-repeat;
 }
-
-.circle-orange{
-    background: linear-gradient(rgb(255, 174, 0) 20%, rgb(252, 238, 45));
-    width: 80%;
-    border-radius: 20px;
-    margin-top: 15em;
-    padding: 3em 2em;
+.box-text{
+    margin-top: 30%;
 }
-.white{
-    color: rgb(252, 250, 248);
+.black{
+    color: rgb(15, 15, 15);
 }
 h1{ 
-    font-size: 3.5em;
-    font-weight: 700;    
+    font-size: 4em;
+    font-weight: 700; 
+    font-family: 'Lobster', cursive;   
+    color:  rgba(133, 4, 4, 0.911);
 }
 h4{
-    font-size: 2em;
+    font-size: 2.5em;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 600; 
+}
+
+.dinner img{
+    width: 150px;
 }
 .map{
     width: 80%;
