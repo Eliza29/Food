@@ -18,5 +18,25 @@ $(function() {
       }      
     });
   });
+  $('.category-food').click(function() {
+    var foodCategory = $(this).attr('category');
+    $('.food-restaurants').hide();
+    $('.food-restaurants[category = "' + foodCategory + '"]').show();
+    $('input').keyup(function() {
+      if ($('input').val() === '') {
+        $('.food-restaurants').show();
+      }
+    }); 
+  });
+  $('.food-restaurants').mouseover(function() {
+    $(this).addClass('selected');
+    $('<p>Excelente!</p>').appendTo('.selected');   
+  });
+  $('.food-restaurants').mouseout(function() {
+    $(this).removeClass('selected');
+    $('p').remove();
+    
+    
+  });
 });
  

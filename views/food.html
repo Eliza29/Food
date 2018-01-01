@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body class="background">
     <div class="container">
         <div class="row">
@@ -21,49 +23,46 @@
                 <label for="food">Antojos cerca de ti </label>
                 <input type="search" id="food" placeholder="elige una opcion">
                 <ul id="list" class="list-food">
-                    <li><a href="#" category= "pollo">pollo</a></li>
-                    <li><a href="#" category= "pizza">pizzas</a></li>
-                    <li><a href="#" category= "comida criolla">comida criolla</a></li>
-                    <li><a href="#" category= "chifa">chifa</a></li>
+                    <li class="category-food" category="pollo"> pollo</li>
+                    <li class="category-food" category="pizza">pizzas</li>
+                    <li class="category-food" category="criolla">comida criolla</li>
+                    <li class="category-food" category="chifa">chifa</li>
                 </ul>
             </div>
-            <div class="container-restaurant">
-                <div class="food-category" category= "pollo">
+        </div>
+    </div>
+    <div class="container-restaurant container">
+        <div class="row">
+            <div class="col-xs-5">
+                <div class="food-restaurants" category="pollo">
                     <img src="../assets/images/donbelisario1.jpg" alt="donbelisario">
-                    <a href="#"></a>
                 </div>
-                <div class="food-category" category= "pollo">
-                    <img src="../assets/images/kfc.jpg" alt="kfc">
-                    <a href="#"></a>
-                </div>
-                <div class="food-category" category= "pollo">
+                <div class="food-restaurants" category="pollo">
                     <img src="../assets/images/norkys.jpg" alt="norkys">
-                    <a href="#"></a>
                 </div>
-                <div class="food-category" category= "pollo">
-                    <img src="../assets/images/pardos.jpg" alt="pardos">
-                    <a href="#"></a>
-                </div>
-                <div class="food-category" category= "pizzas">
+                <div class="food-restaurants" category="pizza">
                     <img src="../assets/images/pizzahut.jpg" alt="pizzahut">
-                    <a href="#"></a>
                 </div>
-                <div class="food-category" category= "comida criolla">
+                <div class="food-restaurants" category="pollo">
+                    <img src="../assets/images/kfc.jpg" alt="kfc">
+                </div>
+            </div>
+            <div class="col-xs-5">
+                <div class="food-restaurants" category="criolla">
                     <img src="../assets/images/rocoto.jpg" alt="el rocoto">
-                    <a href="#"></a>
                 </div>
-                <div class="food-category" category= "chifa">
+                <div class="food-restaurants" category="chifa">
                     <img src="../assets/images/choytac.jpg" alt="choytac">
-                    <a href="#"></a>
                 </div>
-                <div class="food-category" category= "chifa">
+                <div class="food-restaurants" category="chifa">
                     <img src="../assets/images/sanjoylao.png" alt="sanjoylao">
-                    <a href="#"></a>
+                </div>
+                <div class="food-restaurants" category="criolla">
+                    <img src="../assets/images/elmeson.jpg" alt="elmeson">
                 </div>
             </div>
         </div>
     </div>
-    
     <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
     <script src="../js/food.js"></script>
 </body>

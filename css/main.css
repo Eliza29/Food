@@ -55,9 +55,30 @@ h4{
     cursor: pointer;
     padding:2px;
 }
+
 .list-food li:hover{
-    background-color: rgb(0, 174, 255);
-    color: white;
-    border: none;
-     
+    background-color: rgba(255, 196, 0, 0.884);
+    color: white;     
+}
+.container-restaurant{
+    margin: 0 5px;
+}
+.container-restaurant img{
+    height:100px;
+    width: 167px;
+    margin:2px 2px; 
+}
+.selected {
+    position: relative;
+}
+.selected p{
+    background-color: rgba(247, 183, 7, 0.842);
+    border: orange;
+    padding: 45px 50px;
+    position: absolute;
+    left:2px;
+    top:2px;
+    color:white; 
+    height:100px;
+    width: 167px;
 }
