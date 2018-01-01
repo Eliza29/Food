@@ -27,15 +27,37 @@ h4{
     font-family: 'Lobster Two', cursive;
     font-weight: 600; 
 }
-
 .dinner img{
     width: 150px;
 }
 .map{
-    width: 80%;
-    border:2px solid rgb(255, 174, 0);   
+    border:3px solid rgb(255, 252, 252);
+    width: 315px;
+    padding: 4px;
 }
-.map img{
-    
+.input-food{
+    margin-left: 20%;
+    padding: 2em 2em;
+}
 
+.input-food label{
+    color: rgba(8, 8, 8, 0.911);
+    font-size: 2em;
+    font-family: 'Lobster Two', cursive; 
+}
+.list-food{
+    list-style: none;
+    width:174px;
+    background-color: white;
+    font-family: 'Lobster Two', cursive; 
+}
+.list-food li{
+    cursor: pointer;
+    padding:2px;
+}
+.list-food li:hover{
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: none;
+     
 }

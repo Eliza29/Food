@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoodMap</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two" rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="background">
+    <div class="container">
+        <div class="row">
+            <h4 class="text-center">FoodMap</h4>
+            <div class="map center-block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31203.858220914037!2d-76.98385302263507!3d-12.147534195656098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+surco!5e0!3m2!1ses!2spe!4v1514665787663"
+                    width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="input-food">
+                <label for="food">Antojos cerca de ti </label>
+                <input type="search" id="food" placeholder="elige una opcion">
+                <ul id="list" class="list-food">
+                    <li><a href="#" category= "pollo">pollo</a></li>
+                    <li><a href="#" category= "pizza">pizzas</a></li>
+                    <li><a href="#" category= "comida criolla">comida criolla</a></li>
+                    <li><a href="#" category= "chifa">chifa</a></li>
+                </ul>
+            </div>
+            <div class="container-restaurant">
+                <div class="food-category" category= "pollo">
+                    <img src="../assets/images/donbelisario1.jpg" alt="donbelisario">
+                    <a href="#"></a>
+                </div>
+                <div class="food-category" category= "pollo">
+                    <img src="../assets/images/kfc.jpg" alt="kfc">
+                    <a href="#"></a>
+                </div>
+                <div class="food-category" category= "pollo">
+                    <img src="../assets/images/norkys.jpg" alt="norkys">
+                    <a href="#"></a>
+                </div>
+                <div class="food-category" category= "pollo">
+                    <img src="../assets/images/pardos.jpg" alt="pardos">
+                    <a href="#"></a>
+                </div>
+                <div class="food-category" category= "pizzas">
+                    <img src="../assets/images/pizzahut.jpg" alt="pizzahut">
+                    <a href="#"></a>
+                </div>
+                <div class="food-category" category= "comida criolla">
+                    <img src="../assets/images/rocoto.jpg" alt="el rocoto">
+                    <a href="#"></a>
+                </div>
+                <div class="food-category" category= "chifa">
+                    <img src="../assets/images/choytac.jpg" alt="choytac">
+                    <a href="#"></a>
+                </div>
+                <div class="food-category" category= "chifa">
+                    <img src="../assets/images/sanjoylao.png" alt="sanjoylao">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../js/food.js"></script>
+</body>
+
+</html>
