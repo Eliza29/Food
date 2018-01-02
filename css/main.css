@@ -74,11 +74,15 @@ h4{
 .selected p{
     background-color: rgba(247, 183, 7, 0.842);
     border: orange;
-    padding: 45px 50px;
-    position: absolute;
+    padding: 45px 50px;  
+ /* position: absolute;
     left:2px;
     top:2px;
-    color:white; 
+*/  color:rgb(250, 245, 245); 
     height:100px;
-    width: 167px;
+    width: 167px; 
+}   
+.modal-body img{
+    width: 70%;
+
 }

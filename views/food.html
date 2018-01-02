@@ -31,39 +31,141 @@
             </div>
         </div>
     </div>
-    <div class="container-restaurant container">
+    <div class="container container-restaurant">
         <div class="row">
             <div class="col-xs-5">
                 <div class="food-restaurants" category="pollo">
-                    <img src="../assets/images/donbelisario1.jpg" alt="donbelisario">
+                    <a data-toggle="modal" href="#belisario">
+                        <img src="../assets/images/donbelisario1.jpg" alt="donbelisario">
+                    </a>
                 </div>
                 <div class="food-restaurants" category="pollo">
-                    <img src="../assets/images/norkys.jpg" alt="norkys">
+                    <a data-toggle="modal" href="#norkys">
+                        <img src="../assets/images/norkys.jpg" alt="norkys">
+                    </a>
                 </div>
                 <div class="food-restaurants" category="pizza">
-                    <img src="../assets/images/pizzahut.jpg" alt="pizzahut">
+                    <a data-toggle="modal" href="#pizzahut">
+                        <img src="../assets/images/pizzahut.jpg" alt="pizzahut">
+                    </a>
                 </div>
                 <div class="food-restaurants" category="pollo">
-                    <img src="../assets/images/kfc.jpg" alt="kfc">
+                    <a data-toggle="modal" href="#kfc">
+                        <img src="../assets/images/kfc.jpg" alt="kfc">
+                    </a>
                 </div>
             </div>
             <div class="col-xs-5">
                 <div class="food-restaurants" category="criolla">
-                    <img src="../assets/images/rocoto.jpg" alt="el rocoto">
+                    <a href="">
+                        <img src="../assets/images/rocoto.jpg" alt="el rocoto">
+                    </a>
                 </div>
                 <div class="food-restaurants" category="chifa">
-                    <img src="../assets/images/choytac.jpg" alt="choytac">
+                    <a href="">
+                        <img src="../assets/images/choytac.jpg" alt="choytac">
+                    </a>
                 </div>
                 <div class="food-restaurants" category="chifa">
-                    <img src="../assets/images/sanjoylao.png" alt="sanjoylao">
+                    <a href="">
+                        <img src="../assets/images/sanjoylao.png" alt="sanjoylao">
+                    </a>
                 </div>
                 <div class="food-restaurants" category="criolla">
-                    <img src="../assets/images/elmeson.jpg" alt="elmeson">
+                    <a href="">
+                        <img src="../assets/images/elmeson.jpg" alt="elmeson">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+    <!--Modal Don belisario-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="belisario">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Don Belisario</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <img src="../assets/images/menubelisario.jpg" alt="platos">
+                        </div>
+                        <div class="col-xs-4">Horario de atencion delivery:12:00PM a 10:30PM</div>
+                        <div class="col-xs-4">Horario de atencion de locales:12:00PM a 11:00PM</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning">Pedir Ahora</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!--Modal NOrkis-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="norkys">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Norkys</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <img src="../assets/images/menunorkys.jpg" alt="platos">
+                        </div>
+                        <div class="col-xs-4">delivery:274 8311</div>
+                        <div class="col-xs-4">Bolichera av.proceres Mz2 lote16</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning">Pedir Ahora</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!--Modal pizzahut-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="pizzahut">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Pizza Hut</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-7">
+                            <img src="../assets/images/pizzahut.jpg" alt="pizzas">
+                        </div>
+                        <div class="col-xs-4">delivery:274 8311</div>
+                        <div class="col-xs-4">Bolichera av.proceres Mz2 lote16</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning">Pedir Ahora</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </div>
+
     <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="../js/food.js"></script>
 </body>
 

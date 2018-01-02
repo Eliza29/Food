@@ -28,15 +28,25 @@ $(function() {
       }
     }); 
   });
-  $('.food-restaurants').mouseover(function() {
+  $('a').click(function(event) {
+    event.preventDefault();
+  });
+  $('a').mouseover(function(event) {
+    event.preventDefault();
+  });
+  $('a').mouseout(function(event) {
+    event.preventDefault();
+  });
+  
+  $('.food-restaurants').mouseover(function(event) {
+    event.preventDefault();
     $(this).addClass('selected');
     $('<p>Excelente!</p>').appendTo('.selected');   
   });
   $('.food-restaurants').mouseout(function() {
+    event.preventDefault();
     $(this).removeClass('selected');
-    $('p').remove();
-    
-    
+    $('p').remove();  
   });
 });
  
