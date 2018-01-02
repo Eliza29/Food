@@ -1,9 +1,6 @@
-/* Funcionalidades 
+/* Funcionalidades */
 $(document).ready(function() {
   setTimeout(function() { 
-    window.location.href = 'views/district.html';
-  }, 5000); 
-  
-   
-*/
-//
+    window.location.href = 'views/food.html';
+  }, 5000);
+}); 
